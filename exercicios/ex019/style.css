@@ -1,0 +1,48 @@
+@charset "UTC-8";
+
+/*  
+Tudo em HTML é ID em CSS é #(cerquilha) apenas um elemento por código
+Tudo em HTML é CLASS em CSS é .(ponto) vários elementos por código
+*/
+
+body{
+
+    background-color: rgb(215, 253, 241);
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1#primario{
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(8, 122, 33);
+    text-shadow: 3px 3px 3px rgb(250, 255, 250);
+    background-color: rgb(135, 199, 145);
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+
+}
+
+.subtitulo{
+
+background-color: rgb(8, 122, 33);
+
+}
+
+.subtitulo2{
+
+    background-color: azure;
+    text-align: center;
+    color: rgb(135, 199, 145);
+    text-shadow: 2px 2px 2px black;
+
+}

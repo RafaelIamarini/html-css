@@ -1,0 +1,38 @@
+@charset "UTC-&";
+
+@font-face {
+    font-family: 'Exercito';
+    src: url('fontes/Top Secret.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Tipos de format()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-att (Aplle Advenced Typography)
+- svg   */
+
+body{
+    background-color: rgb(96, 121, 93);
+}
+
+h1{
+    font-family: 'Exercito', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    
+}
+
+h2{
+    font-family: 'Exercito', sans-serif;
+    font-weight: normal;
+}
+
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}

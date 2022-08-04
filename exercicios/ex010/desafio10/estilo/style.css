@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Satisfy&family=Sriracha&display=swap');
+
+@font-face {
+    font-family: 'andoid';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+
+    --cor0: #36F599;
+    --cor1: #2BC27A;
+    --cor2: #80F7BD;
+    --cor3: #1A7549;
+    --corfundo: #bff8dd8f;
+
+    --fonte-padrao: verdana, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --font-android: 'andoid', cursive;
+
+}
+
+body{
+
+    background-color: #c5ebd6;
+    font-family: var(--fonte-padrao);
+
+}
+
+a.externo::after{
+
+    content: '\00a0\1F517';
+
+}
+
+header{
+
+    background-color: var(--cor3);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 25px;
+    background: rgb(26,117,73);
+background: linear-gradient(0deg, rgba(26,117,73,1) 0%, rgba(124,219,176,1) 75%);
+    
+
+}
+
+nav{
+
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);;
+
+}
+
+nav > a{
+
+    color: var(--cor2);
+    padding: 10px;
+    text-decoration: none;;
+    transition-duration: .5s;
+    border-radius: 5px;
+
+}
+
+nav >a:hover{
+
+    background-color: var(--cor1);
+
+}
+
+header > h1{
+
+    color: white;
+    margin-bottom: 30px;
+    font-size: 3em;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+header > p{
+
+    color: white;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+main{
+
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+main h1{
+
+    color: var(--cor3);
+    font-family: var(--font-android);
+    font-weight: normal;
+
+}
+
+main h2{
+
+    color: var(--cor3);
+    font-family: var(--font-android);
+    background: rgb(191,248,221);
+    background: linear-gradient(90deg, rgba(191,248,221,1) 0%, rgb(238, 252, 245) 38%);
+    text-indent: 7px;
+    font-weight: normal;
+
+}
+
+main img{
+
+    width: 100%;
+
+}
+
+main img.pequena{
+
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+main p{
+
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+
+}
+
+main strong{
+
+color: var(--cor3);
+
+
+}
+
+main a{
+
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: larger;
+    background: linear-gradient(90deg, rgba(191,248,221,1) 0%, rgb(238, 252, 245) 38%);
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+main a:hover{
+
+    text-decoration: underline;
+    color: var(--cor3);
+
+}
+
+div.video{
+
+    background-color: #1A7549;
+    margin: 0px -20px 30px -20px;
+    padding: 30px;
+    padding-bottom: 61%;
+    position: relative;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+div.video > iframe{
+
+position: absolute;
+top: 9%;
+left: 5%;
+width: 90%;
+height: 82%;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+aside{
+
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+aside > ul{
+
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2705\00a0';
+
+}
+
+aside > h3{
+
+    background-color: var(--cor3);
+    color: white;
+    padding: 7px;
+    margin: -10px -10px 0 -10px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+
+}
+
+footer{
+
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
+    font-size: .8em;
+    padding: 5px;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.5);
+    font-weight: normal
+    ;
+
+}

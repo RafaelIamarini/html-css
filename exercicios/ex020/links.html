@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <STYle>
+
+        /*
+
+        Sinais Usados / Simbologias / Seletores Personalizados
+        >  = clindren
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        
+        */
+
+        body{
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: lightblue;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: darkblue;
+        }
+
+        a:active{
+            color: red;
+        }
+
+        a::after{
+            content: '[link]';
+            color: lightblue;
+            font-weight: normal;
+        }
+
+    </STYle>
+
+
+</head>
+<body>
+
+    <h1>Personalizando Links</h1>
+
+    <ul>
+
+        <li><a href="https://www.youtube.com/channel/UC3LlDWThyg2tMt_i7yyBEJg">Youtube</a></li>
+
+        <li><a href="https://www.facebook.com/ogordoiamarini/">Facebook</a></li>
+
+        <li><a href="https://www.instagram.com/gordoiamarini/">Instagram</a></li>
+
+    </ul>
+    
+</body>
+</html>

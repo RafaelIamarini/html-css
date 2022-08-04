@@ -1,0 +1,43 @@
+@charset "UTC-8";
+
+/* 
+
+Medidas Absolutas: cm(centímetro), mm(milimetro), 
+in (polegada), px(pixel), pt(ponto), pc(paica)
+Medidas Relativas: em(tamanho do M maiusculo), ex(tamanho x), 
+rem(fonte configurada no body), vw(largura da tela), vh(altura da tela),
+%(porcentagem) 
+
+Usar Apenas PX e EM 
+16px equivale a 1em
+
+Peso da Fonte = font-weight
+pesos: lighter, normal, bold, bolder
+
+shorthand font = font-style > font-weight > font-size > font-family 
+ex: font: italic bolder 3em 'Work Sans', sans-serif; 
+
+*/
+
+body{
+
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline; /*sublinhado*/
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-indent: 30px;
+}

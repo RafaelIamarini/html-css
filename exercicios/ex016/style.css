@@ -1,0 +1,37 @@
+@charset "UTH-8";
+
+*{
+    font-family: Tahoma, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to left, #fcdfb4, #FAAB36);
+
+}
+
+main{
+    background-color: #ffffff;
+    width: 550px; /* Caixa */
+    padding: 10px; /* Margem da Caixa */
+    margin: auto; /* centralizar a Caixa */
+    border-radius: 15px; /* Arredondar Caixa */
+    box-shadow: 5px 5px 10px #d6865b; /* Sombra da Caixa */
+   
+}
+
+h1{
+    color: #FD5901;
+    text-align: center;
+    text-shadow: 1px 1px 3px #249EA0;
+
+}
+
+h2{
+    color: #F78104;
+    text-shadow: 1px 1px 3px #165b5c;
+}
+
+p{
+    text-align: justify;
+    
+}

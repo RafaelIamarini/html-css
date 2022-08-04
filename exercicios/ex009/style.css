@@ -1,0 +1,15 @@
+@charset "UTC-8";
+
+h1, p{
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+a{
+    color: aliceblue;
+}
