@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img id="imagem" src="imagem/academia-imagem.jpeg" alt="">
+
+    <h1 id="title">Cadastro de Alunos</h1>
+
+    <p id="description">Preencha todas as infonmações corretamente:</p>
+
+    <form id="survey-form" action="">
+        
+        <label id="name-label" for="name">Nome</label> <br>
+        <input id="name" placeholder="Digite seu nome completo" type="text" required> <br><!--Cadastro de Nomes-->
+    
+        <label id="email-label" for="email">E-mail</label> <br>
+        <input id="email" placeholder="Digite seu e-mail" type="email" required><br><!--Cadastro de Email-->
+
+        <label id="number-label" for="number">Idade</label> <br>
+        <input id="number" placeholder="Digite sua Idade" type="number" min="10" max="99" required><br><!--Cadastro de Numero-->
+
+        <label id="cidade" for="cidade">Cidade</label><br> <!--Seleção de cidade-->
+        <select name="cidade" id="dropdown">Cidade<!--Seleção de cidade-->
+            <option value="select">Selecione sua Cidade</option><!--Seleção de cidade-->
+            <option value="Ita">Itapira</option><!--Seleção de cidade-->
+            <option value="mim">Mogi mirim</option><!--Seleção de cidade-->
+            <option value="mog">Mogi Guaçu</option><!--Seleção de cidade-->
+            <option value="amp">Amparo</option><!--Seleção de cidade-->
+            <option value="lin">Lindóia</option><!--Seleção de cidade-->
+
+        </select>
+        
+            <p class="titulo">Você faz algum exercício?</p>
+
+            <label class="separador" for="sedentario">
+                <input id="sedentario" type="radio" name="name" value="sedentario" checked> Sedentário
+            </label>
+             
+            <label class="separador" for="moderado">
+                <input id="moderado" type="radio" name="name" value="moderado"> Moderado
+            </label>
+                    
+            <label class="separador" for="esportista">
+                <input id="esportista" type="radio" name="name" value="moderado"> Esportista
+            </label>
+
+            <p class="titulo">Que horário pretende treinar?</p>
+
+            <label class="separador" for="manha">
+                <input id="manha" type="checkbox" name="name" value="manha"> Manhã
+            </label>
+             
+            <label class="separador" for="tarde">
+                <input id="tarde" type="checkbox" name="name" value="tarde"> Tarde
+            </label>
+                    
+            <label class="separador" for="noite">
+                <input id="noite" type="checkbox" name="name" value="noite"> Noite
+            </label>
+
+        <textarea name="textarea" id="info-area" cols="40" rows="5" required>Informações Adicionais:</textarea> <br>
+
+
+        <button id="submit" type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
